@@ -1,0 +1,90 @@
+*{
+    margin: 0px; 
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #93cdfd;
+    
+}
+img{
+    width: 130px; height: 150px;
+    
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: cursive; /* tipo de letra */
+    text-shadow: 5px 5px 5px white;
+    
+
+}
+a{
+    text-decoration: none;
+    color:white;   
+    font-size: 20px;
+}
+.hvca{
+    width: 100%; height: 510px;
+}
+
+/*PLAZA DE ARMAS */
+.estructura{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.catedral{
+    display: block;/*poner al centro una imagen */
+    margin-left: auto;/*poner al centro una imagen */
+    margin-right: auto;/*poner al centro una imagen */
+    padding-top: 40px;/*separar hacia arriba */
+    padding-bottom: 40px;/*separar hacia abajo*/
+    width: 30%; height: 400px;
+}  
+.menu{
+    width: 200px; height: 50px;
+}
+.titulo-catedral{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+p{
+    padding-bottom: 10px;
+    
+}
+.imagen-iglesia{
+    display: block;/*poner al centro una imagen */
+    margin-left: auto;/*poner al centro una imagen */
+    margin-right: auto;
+    width: 30%; height: 400px;
+}
+/*PISCINA DE SAN CRISTOBAL*/
+
+.piscina-de-sancris{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgpiscina{
+    width: 30%; height: 400px;
+    margin-top: 40px;
+}
+.contenidopiscina{
+    margin-top: 20px;
+    display: inline-block;
+    padding-left: 100px;
+    text-align: justify; /*justifica un texto */
+
+}
+/*PIE DE PAGINA*/
+footer{
+    background: #93cdfd;
+   
+}
